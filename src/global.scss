@@ -18,16 +18,23 @@ html{
            font-size:14px;
            margin-top: 2rem;
        }
+       #descriptionResponsive{
+          h1,h2,h3,p{
+              font-size: 0.9rem;
+          }
+          img{
+              height: 90%;
+              width: 90%;
+          }
+       }
     }
 }
 
-h1{
+h1,h2,h3,p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-h2{
-    font-family: 'Poppins', sans-serif;
-}
+
 
 :root{
     --gray:rgba(0,0,0,0.8);

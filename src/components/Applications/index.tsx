@@ -44,7 +44,7 @@ export function Applications({ title, subTitle, link, img, alt, titleLink, descr
     }
 
     return (
-        <div className={styles.container}>
+        <div id="descriptionResponsive"  className={styles.container}>
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
