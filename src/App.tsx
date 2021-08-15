@@ -37,9 +37,9 @@ export function App() {
           subTitle="Site para organizar finanças" />
 
         <Applications titleLink={"Visitar Aplicação"}
-          titleModal={"COVID-19-Progressive-Web-Application"}
+          titleModal={"COVID-19-PWA"}
           description={"Nesta aplicação foi desenvolvido uma Progressive Web Application para mostrar os dados de uma api pública em uma interface trabalhada em reactJS, essa api disponibiliza dados de vários países sobre o COVID19."}
-          title={"COVID-19-Progressive-Web-Application"}
+          title={"COVID-19-PWA"}
           alt={"img-covid"}
           img={"https://arthur-art-portfolio.vercel.app/src/img/Covid.jpeg"}
           link={"https://covid-pwa-arthur-art.vercel.app/"}

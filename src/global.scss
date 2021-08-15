@@ -14,18 +14,17 @@ html{
     }
     @media(max-width:720px){
         font-size: 77.5%;
-       h1,h2,h3{
-           font-size:14px;
-           margin-top: 2rem;
-       }
+       
        #descriptionResponsive{
-          h1,h2,h3,p{
+          h3,p{
               font-size: 0.9rem;
           }
-          img{
-              height: 90%;
-              width: 90%;
+          h1{
+              margin-top: 10rem;
           }
+         img{
+             padding: 0;
+         }
        }
     }
 }
