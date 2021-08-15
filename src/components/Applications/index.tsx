@@ -53,22 +53,20 @@ export function Applications({ title, subTitle, link, img, alt, titleLink, descr
             >
                 <div className={styles.containerModal}>
                     <h1>{titleModal}</h1>
-
-                    <h2>Descrição:</h2>
                     <p>{description}</p>
                     <button><a target="_blank" href={link}>Visitar aplicação</a></button>
                     <button onClick={closeModal}>Fechar</button>
 
                 </div>
             </Modal>
-            <h1>{title}</h1>
+            <br/><br/><br/><br/>
+            <h1>{title}</h1><br/><br/>
             <h2>{subTitle}</h2><br/><br/>
             <div className={styles.subtitle}>
                 <a onClick={openModal}>Saiba mais {">"} </a>
                 <a target="_blank" href={link}>{titleLink}{" >"}</a>
-            </div>
+            </div><br/><br/><br/><br/>
             <img src={img} alt={alt} />
-
         </div>
     )
 }

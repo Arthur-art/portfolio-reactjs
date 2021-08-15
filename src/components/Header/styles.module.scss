@@ -1,22 +1,24 @@
-a{
-    text-decoration: 0;
-    color: white;
-    transition: 0.2s;
-    font-size: 1.2rem;
-    width: 100%;
-    height: 100%;
-    &:hover{
-       filter: invert(100%);
-    }
-
-}
-
 .headerContainer{
+    a{
+        text-decoration: 0;
+        color: white;
+        transition: 0.2s;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+           filter: invert(100%);
+        }
+    
+    }
     width: 100%;
-    height: 4rem;
+    height: 3rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     button{
         border: 0;
         height: 100%;
@@ -27,7 +29,6 @@ a{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 10px;
         &:hover{
             filter: invert(10%);
         }

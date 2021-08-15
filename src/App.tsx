@@ -16,7 +16,7 @@ export function App() {
           alt={"img-netflix"}
           img={"https://arthur-art-portfolio.vercel.app/src/img/ScienceNet.JPG"}
           link={"https://repository-movie-created-arthur-art.vercel.app/"}
-          subTitle="Site baseado na netflix" />
+          subTitle="Layout inspirado nos sites de streaming" />
 
         <Applications titleLink={"Visitar Aplicação"}
           titleModal={"Moveit"}
@@ -34,7 +34,7 @@ export function App() {
           alt={"img-devfinance"}
           img={"https://arthur-art-portfolio.vercel.app/src/img/DevFinance.JPG"}
           link={"https://dev-finance-created-arthur-art.vercel.app/"}
-          subTitle="Site para organizar finanças" />
+          subTitle="Organizando finanças" />
 
         <Applications titleLink={"Visitar Aplicação"}
           titleModal={"COVID-19-PWA"}
@@ -43,7 +43,7 @@ export function App() {
           alt={"img-covid"}
           img={"https://arthur-art-portfolio.vercel.app/src/img/Covid.jpeg"}
           link={"https://covid-pwa-arthur-art.vercel.app/"}
-          subTitle="Site para se informar sobre o covid no mundo" />
+          subTitle="Informações sobre o COVID-19" />
       </div>
     </>
   );
