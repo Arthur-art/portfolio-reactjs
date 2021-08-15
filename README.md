@@ -1,0 +1,3 @@
+- Projeto pessoal desenvolvido com reactJs e typescript.
+- link para aplicação:
+- https://arthur-art.vercel.app/
