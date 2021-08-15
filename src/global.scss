@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    
+    box-sizing: border-box;
 }
 
 body{
@@ -17,5 +17,5 @@ h2{
 }
 
 :root{
-    --gray:#2D3748;
+    --gray:rgba(0,0,0,0.8);
 }

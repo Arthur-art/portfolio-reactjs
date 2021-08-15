@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    .subtitle{
+        text-align: center;
+        width: 100%;
+        a{
+            margin:2rem;
+            cursor: pointer;
+            &:hover{
+                filter: invert(50%);
+            }
+        }
+    }
+    img{
+        padding: 2rem;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+.containerModal{
+ 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   font-size: 1.7rem;
+   color: white;
+   button{
+       height: 3rem;
+       font-size: 1.5rem;
+       cursor: pointer;
+       background: rgba(0,0,0,0.8);
+       border: 0;
+       color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 1rem;
+       &:hover{
+           filter: invert(10%);
+       }
+       a{
+           &:hover{
+                filter: brightness(0.8);
+           }
+       }
+      
+   }
+}
+
+
