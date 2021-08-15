@@ -1,0 +1,31 @@
+a{
+    text-decoration: 0;
+    color: white;
+    transition: 0.2s;
+    font-size: 1.2rem;
+    &:hover{
+       filter: invert(30%);
+    }
+
+}
+
+.headerContainer{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    button{
+        border: 0;
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+        background: var(--gray-400);
+        transition: 0.3s;
+        margin-bottom: red;
+        &:hover{
+            filter: brightness(0.8);
+        }
+    }
+    
+}
