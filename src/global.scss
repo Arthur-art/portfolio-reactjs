@@ -10,10 +10,10 @@ body{
 
 html{
     @media(max: width 1080px){
-        font-size: 93.75%;
+        font-size: 90%;
     }
     @media(max-width:720px){
-        font-size: 77.5%;
+        font-size: 60%;
        
        #descriptionResponsive{
           h3,p{
@@ -37,4 +37,8 @@ h1,h2,h3,p{
 
 :root{
     --gray:rgba(0,0,0,0.8);
+}
+
+::-webkit-scrollbar{
+    width: 0;
 }
