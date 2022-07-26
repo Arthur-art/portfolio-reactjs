@@ -3,6 +3,7 @@ import CovidImg from "../img/Covidpwa.png"
 import scienceImg from "../img/scienceNet.png"
 import DevFinanceImg from "../img/DevFinance.png"
 import MoveitImg from "../img/Moveit.png"
+import igniteFeedImg from "../img/igniteFeed.png"
 
 export const sites = [
    {
@@ -14,6 +15,16 @@ export const sites = [
         img: scienceImg,
         link: "https://repository-movie-created-arthur-art.vercel.app/",
         subTitle: "Layout inspirado nos sites de streaming",
+    },
+   {
+        titleLink: "Visitar Aplicação",
+        titleModal: "Ignite-feed",
+        description: "Esta aplicação é um projeto da Rocketseat o Ignite-ReactJS, Projeto com ensina a desenvolver o frontend de um feed numa rede social.",
+        title: "Ignite-feed",
+        alt: "img-ignite-feed",
+        img: igniteFeedImg,
+        link: "https://to-do-list-feed-reactjs.vercel.app/",
+        subTitle: "Aplicação para simular um feed de uma rede social",
     },
     {
         titleLink: "Visitar Aplicação",
