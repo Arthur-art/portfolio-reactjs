@@ -6,7 +6,6 @@ import './global.scss'
 
 ReactDOM.render(
   <>
-    <Header />
     <App />
   </>,
   document.getElementById('root'),
