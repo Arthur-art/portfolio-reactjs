@@ -55,15 +55,5 @@ export const sites = [
     img: igniteFeedImg,
     link: 'https://to-do-list-feed-reactjs.vercel.app/',
     subTitle: 'Aplicação para simular um feed de uma rede social',
-  },
-  {
-    id: 'Projeto6',
-    description:
-      'Nesta aplicação foi desenvolvido uma Progressive Web Application para mostrar os dados de uma api pública em uma interface trabalhada em reactJS, essa api disponibiliza dados de vários países sobre o COVID19.',
-    title: 'COVID-19-PWA',
-    alt: 'img-covid',
-    img: CovidImg,
-    link: 'https://covid-pwa-arthur-art.vercel.app/',
-    subTitle: 'Informações sobre o COVID-19',
-  },
+  }
 ]
