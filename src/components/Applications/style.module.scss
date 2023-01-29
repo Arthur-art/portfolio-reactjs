@@ -11,6 +11,13 @@
         margin-top: 5rem;
     }
     margin-bottom: 0.7rem;
+    .applicationHeader{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
     .subtitle{
         text-align: center;
         width: 100%;

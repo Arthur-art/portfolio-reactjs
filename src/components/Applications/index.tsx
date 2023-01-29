@@ -65,26 +65,16 @@ export function Applications({
           <button onClick={closeModal}>Fechar</button>
         </div>
       </Modal>
-      <br />
-      <br />
-      <br />
-      <br />
-      <h1>{title}</h1>
-      <br />
-      <br />
-      <h2>{subTitle}</h2>
-      <br />
-      <br />
+      <div className={styles.applicationHeader}>
+        <h1>{title}</h1>
+        <h2>{subTitle}</h2>
+      </div>
       <div className={styles.subtitle}>
         <a onClick={openModal}>Saiba mais {'>'} </a>
         <a target="_blank" href={link} rel="noreferrer">
           Visitar Aplicação{' >'}
         </a>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
       <img src={img} alt={alt} />
     </div>
   )
