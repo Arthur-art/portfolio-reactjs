@@ -5,15 +5,7 @@ import styles from './app.module.scss'
 import { sites } from './api/api'
 
 export function App() {
-  const [modalIsOpen, setIsOpen] = useState(false)
 
-  function openModal() {
-    setIsOpen(true)
-  }
-
-  function closeModal() {
-    setIsOpen(false)
-  }
 
   return (
     <>
@@ -21,10 +13,8 @@ export function App() {
       <div className={styles.main}>
         {sites.map((sites) => {
           return (
-            <Applications.Root img={sites.img} alt={sites.alt} key={sites.id}>
-              <Applications.Modal description={sites.description} link={sites.link} title={sites.title} modalIsOpen={modalIsOpen} closeModal={closeModal} />
+            <Applications.Root img={sites.img} alt={sites.alt} key={sites.id} description={sites.description} link={sites.link} title={sites.title}>
               <Applications.Header title={sites.title} subtitle={sites.subTitle} />
-              <Applications.Subtitle link={sites.link} openModal={openModal} />
             </Applications.Root>
           )
         })}
